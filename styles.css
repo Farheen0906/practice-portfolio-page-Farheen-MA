@@ -2,7 +2,7 @@ body {
     background-color: rgba(102, 198, 222, 0.112);
     font-family: Copperplate, Papyrus, fantasy;
     text-align: center;
-}
+ 
 
 h1 {
     color: rgb(7, 11, 86);
@@ -19,10 +19,13 @@ h1 {
 
 #aboutParagraph {
     color: rgb(78, 82, 197);
+    line-height: 1.6;
+    box-sizing: border-box;
 }
 
 h2 {
     color: rgb(64, 137, 233);
+    padding: 15px 25px;
 }
 
 h3 {
@@ -35,8 +38,15 @@ h3 {
     color: rgb(48, 109, 208);
     text-align: center;
     list-style-position: inside;
+   
 }
 
 footer {
+    margin: 60px;
     text-align: left;
 }
+/*
+Margin -> space outside the element (distance from other elements)
+Padding -> space inside the element (space between content and border)
+box-sizing -> Ensures padding doesn’t increase element width unexpectedly
+*/
