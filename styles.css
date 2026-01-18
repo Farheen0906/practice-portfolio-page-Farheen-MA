@@ -17,6 +17,9 @@ filter: brightness(50%);
 
 
 }
+.table{
+    text-align: center;
+}
 #tagLine {
     color: cornflowerblue;
     font-display: block;
@@ -53,7 +56,10 @@ footer {
     text-align: left;
     cursor: pointer;
 }
-
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
 /*
 Margin -> space outside the element (distance from other elements)
 Padding -> space inside the element (space between content and border)
