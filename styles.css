@@ -6,12 +6,17 @@ body {
 
 h1 {
     color: rgb(7, 11, 86);
+    background-color: rgb(34, 167, 228);
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
+img:hover{
+filter: brightness(50%);
 
+
+}
 #tagLine {
     color: cornflowerblue;
     font-display: block;
@@ -34,7 +39,7 @@ h3 {
     font-size: x-large;
 }
 
-.unorderedList {
+.unorderedList{
     color: rgb(48, 109, 208);
     text-align: center;
     list-style-position: inside;
@@ -42,9 +47,13 @@ h3 {
 }
 
 footer {
-    margin: 60px;
+    background-color:rgb(38, 150, 215);
+    margin: 2000; /* Remove default body margin */
+    padding: 4000; /* Remove default body padding */
     text-align: left;
+    cursor: pointer;
 }
+
 /*
 Margin -> space outside the element (distance from other elements)
 Padding -> space inside the element (space between content and border)
